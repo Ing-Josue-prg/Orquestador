@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+
+  <modelVersion>4.0.0</modelVersion>
+
+  <parent>
+    <groupId>ec.edu.unibe</groupId>
+    <artifactId>orquestador-calidad</artifactId>
+    <version>1.0.0</version>
+  </parent>
+
+  <artifactId>adaptadores</artifactId>
+  <name>Orquestador :: Adaptadores</name>
+  <description>Un adaptador por herramienta evaluada. Cada uno implementa AnalizadorEstatico.</description>
+
+  <dependencies>
+    <dependency>
+      <groupId>ec.edu.unibe</groupId>
+      <artifactId>dominio</artifactId>
+      <version>${project.version}</version>
+    </dependency>
+    <dependency>
+      <groupId>org.junit.jupiter</groupId>
+      <artifactId>junit-jupiter</artifactId>
+      <scope>test</scope>
+    </dependency>
+  </dependencies>
+
+</project>

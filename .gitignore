@@ -1,0 +1,12 @@
+# Compilados de Maven
+target/
+# Configuracion de IDE
+.idea/
+*.iml
+.vscode/
+.settings/
+.classpath
+.project
+# Configuracion local de herramientas de asistencia y de analisis
+.claude/
+.scannerwork/
